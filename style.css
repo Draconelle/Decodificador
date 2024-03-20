@@ -1,0 +1,22 @@
+body{
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #fffcfc;
+}
+
+.caja-input {
+    width: 40%;
+    margin: 1em 2em;
+    height: 400px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border: lightcoral;
+    color: #710A0A;
+    text-align: center;
+    padding: 2 rem;
+    font-size: 26px;
+    font-weight: 900;
+    font-family: "Abel", sans-serif;
+
+}
