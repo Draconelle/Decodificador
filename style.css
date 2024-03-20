@@ -2,13 +2,36 @@ body{
     font-family: "Abel", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background: #fffcfc;
+    background: #d3adad;
+}
+
+header{
+    width: 940px;
+    margin: 1em 0 0 1em ;
+}
+
+
+.lado-izq{
+    position: absolute;
+ /*   background: #710A0A; */
+    width: 50%;
+}
+
+.lado-der{
+    background: #ffffff;
+    width: 44%;
+    position: absolute;
+    margin: 0 53%;
+    height: 514px;
+    text-align: center;
+    border-radius: 32px;
 }
 
 .caja-input {
-    width: 40%;
+    width: 90%;
     margin: 0.5em 4em 0.5em 2em ;
     height: 400px;
+    position: relative;
     border-radius: 16px;
     background-color: #FFFFFF;
     border: lightcoral;
@@ -22,23 +45,14 @@ body{
 }
 
 
-.boton-encriptar{
-    width: 20%;
-    margin-left: 2.3em;
-    padding: 15px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #FFFFFF;
-    background: #A04747;
-    border-color: #A04747;
-    border-radius: 15px;
-    transition: 0.5s background all;
-    cursor: pointer;
+
+.botones{
+    margin-left: 15%;
 }
 
 
 .advertencia{
-    margin-left: 16%;
+    margin-left: 25%;
     margin-bottom: 1em;
     color: #AA705D;
     font-weight: bold;
@@ -46,7 +60,7 @@ body{
 }
 
 .boton-encriptar{
-    width: 16%;
+    width: 25%;
     margin-left: 4.2em;
     padding: 15px;
     font-size: 18px;
@@ -61,7 +75,7 @@ body{
 }
 
 .boton-desencriptar{
-    width: 16%;
+    width: 25%;
     margin-left: 2.3em;
     padding: 15px;
     font-size: 18px;
@@ -74,3 +88,59 @@ body{
     cursor: pointer;
     font-family: "Abel", sans-serif;
 }
+
+.monito{
+    position: relative;
+    width: 50%;
+    margin-top: 0.8em;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.caja-output{
+    position: relative;
+    width: 50%;
+    text-align: center;
+    margin: 0.5em auto;
+    background-color: #FFFFFF;
+    font-size: 20px;
+}
+
+h2{
+    font-weight: bold;
+    color: #710A0A;
+    font-size: 20px;
+}
+
+h2+p{
+    color: #710A0A;
+    padding: 0.5em;
+    font-size: 18px;
+}
+
+.boton-copia{
+    width: 25%;
+    margin-top: 16.5%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #A04747;
+    background: #E8DCD8;
+    border-color: #E8DCD8;
+    border-radius: 15px;
+    transition: 0.5s background all;
+    cursor: pointer;
+    font-family: "Abel", sans-serif;
+    position: relative;
+}
+
+/*.caja-procesada{
+    border-color: yellowgreen;
+    border-style: solid;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    height: 514px;
+    text-align: center;
+    border-radius: 32px;
+}*/ 

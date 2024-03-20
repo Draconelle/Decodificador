@@ -20,16 +20,39 @@
     
     <main>
 
-        
-        <div>
-            <input type="text" id="encriptarInput" class="caja-input" placeholder="Ingrese el texto aquí">
-        </div>
+        <section class="lado-izq"> 
+            <div class="caja1">
+                <input type="text" id="encriptarInput" class="caja-input" placeholder="Ingrese el texto aquí">
+            </div>
 
-        <div>
-            <p class="advertencia">⚠ Solo letras minúsculas y sin acentos</p>
-            <button id="encriptar" class="boton-encriptar">Encriptar</button>
-            <button id="desencriptar" class="boton-desencriptar">Desencriptar</button>
-        </div>
+            <div class="botones">
+                <p class="advertencia">⚠ Solo letras minúsculas y sin acentos</p>
+                <button id="encriptar" class="boton-encriptar">Encriptar</button>
+                <button id="desencriptar" class="boton-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="lado-der">
+            <img src="images/monito.png" class="monito" alt="Falta de texto">
+            <div class="caja-output">
+                <h2>Ningún mensaje ha sido encontrado</h2>
+                <p>Favor de ingresar el texto que se desee encriptar o desencriptar</p>
+            </div>
+
+            <!--/pendiente app.js-->
+
+            <div class="caja-procesada">
+                <p class="texto-procesado">         </p> 
+            </div>
+
+            <div>
+                <button id="copiar" class="boton-copia">Copiar</button>
+            </div>
+
+        </section>
+
+
+
 
 
     </main>
