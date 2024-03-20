@@ -27,8 +27,8 @@
 
             <div class="botones">
                 <p class="advertencia">⚠ Solo letras minúsculas y sin acentos</p>
-                <button id="encriptar" class="boton-encriptar">Encriptar</button>
-                <button id="desencriptar" class="boton-desencriptar">Desencriptar</button>
+                <button onclick="encriptar();" id="encriptar" class="boton-encriptar">Encriptar</button>
+                <button onclick="desencriptar();" id="desencriptar" class="boton-desencriptar">Desencriptar</button>
             </div>
         </section>
 
@@ -46,18 +46,21 @@
             </div>
 
             <div>
-                <button id="copiar" class="boton-copia">Copiar</button>
+                <button onclick="copiador();" id="copiar" class="boton-copia">Copiar</button>
             </div>
 
         </section>
-
-
-
-
-
     </main>
 
+    <footer>
+        <div class="firma">
+            <p id="tag">Encriptador de texto</p>
+            <br>
+            <p >Elaborado por Andrea Cruz</p>
+        </div>
+    </footer>   
 
-<!--  Pal rato: <script src="app.js"></script>  -->    
+
+<script src="app.js"></script>
 </body>
 </html>

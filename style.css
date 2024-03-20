@@ -54,7 +54,7 @@ header{
 .advertencia{
     margin-left: 25%;
     margin-bottom: 1em;
-    color: #AA705D;
+    color: #8d4730;
     font-weight: bold;
     font-size: 14px;
 }
@@ -69,13 +69,12 @@ header{
     background: #A04747;
     border-color: #A04747;
     border-radius: 15px;
-    transition: 0.5s background all;
     cursor: pointer;
     font-family: "Abel", sans-serif;
 }
 
 .boton-desencriptar{
-    width: 25%;
+    width: 29%;
     margin-left: 2.3em;
     padding: 15px;
     font-size: 18px;
@@ -84,7 +83,6 @@ header{
     background: #E8DCD8;
     border-color: #E8DCD8;
     border-radius: 15px;
-    transition: 0.5s background all;
     cursor: pointer;
     font-family: "Abel", sans-serif;
 }
@@ -110,6 +108,7 @@ h2{
     font-weight: bold;
     color: #710A0A;
     font-size: 20px;
+    margin-top: 0.5em;
 }
 
 h2+p{
@@ -120,7 +119,7 @@ h2+p{
 
 .boton-copia{
     width: 25%;
-    margin-top: 16.5%;
+    margin-top: 15%;
     padding: 15px;
     font-size: 18px;
     font-weight: bold;
@@ -128,19 +127,42 @@ h2+p{
     background: #E8DCD8;
     border-color: #E8DCD8;
     border-radius: 15px;
-    transition: 0.5s background all;
     cursor: pointer;
     font-family: "Abel", sans-serif;
     position: relative;
 }
 
-/*.caja-procesada{
-    border-color: yellowgreen;
-    border-style: solid;
-    width: 100%;
-    position: absolute;
-    margin: 0;
-    height: 514px;
+
+.caja-procesada{
+    position: static;
+    width: 90%;
+    height: 60.5%;
+    padding: 5%;
+    text-align: left;
+    display: none;
+}
+
+.texto-procesado{
+    width: 90%;
+    color: #710A0A;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+footer{
+    position: relative;
+    height: 30px;
+    margin-top: 46%;
     text-align: center;
-    border-radius: 32px;
-}*/ 
+    background: palevioletred;
+    padding: 18px;
+    color: #710A0A;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#tag{
+    font-size: 14px;
+}

@@ -1,6 +1,6 @@
 <h1>Encriptador</h1>
 
-Este proyecto es un desafío a completar por parte del equipo de Allura.
+Este proyecto es un desafío a completar por parte del equipo de Alura.
 Es una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
 
 Las "llaves" de encriptación que utilizaremos son las siguientes:
@@ -29,9 +29,4 @@ El resultado debe ser mostrado en la pantalla.
 # Extras:
 
 Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
-Tenemos un periodo de tiempo de cuatro semanas para desarrollar el proyecto y vamos a trabajar con el sistema ágil de desarrollo, utilizando el Trello de la siguiente forma:
 
-1. La columna **Listos para iniciar** presenta las tarjetas con elementos que aun no fueron desarrollados.
-2. En la columna **En Desarrollo** estarán los elementos que estés desarrollando en el momento. Al iniciar una tarea, podrás mover la tarjeta que contiene dicha tarea para esta columna.
-3. En la columna **Pausado** estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
-4. Por fin, en la columna **Concluido** estarán los elementos ya concluidos.
