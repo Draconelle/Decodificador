@@ -7,7 +7,7 @@ body{
 
 .caja-input {
     width: 40%;
-    margin: 1em 2em;
+    margin: 0.5em 4em 0.5em 2em ;
     height: 400px;
     border-radius: 16px;
     background-color: #FFFFFF;
@@ -19,4 +19,58 @@ body{
     font-weight: 900;
     font-family: "Abel", sans-serif;
 
+}
+
+
+.boton-encriptar{
+    width: 20%;
+    margin-left: 2.3em;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: #A04747;
+    border-color: #A04747;
+    border-radius: 15px;
+    transition: 0.5s background all;
+    cursor: pointer;
+}
+
+
+.advertencia{
+    margin-left: 16%;
+    margin-bottom: 1em;
+    color: #AA705D;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.boton-encriptar{
+    width: 16%;
+    margin-left: 4.2em;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #E8DCD8;
+    background: #A04747;
+    border-color: #A04747;
+    border-radius: 15px;
+    transition: 0.5s background all;
+    cursor: pointer;
+    font-family: "Abel", sans-serif;
+}
+
+.boton-desencriptar{
+    width: 16%;
+    margin-left: 2.3em;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #A04747;
+    background: #E8DCD8;
+    border-color: #E8DCD8;
+    border-radius: 15px;
+    transition: 0.5s background all;
+    cursor: pointer;
+    font-family: "Abel", sans-serif;
 }
